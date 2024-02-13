@@ -1,0 +1,3 @@
+customername = 'charitha'
+query = '''SELECT * FROM ORDERS WHERE O_Name = %s'''
+print(query % (customername,))
